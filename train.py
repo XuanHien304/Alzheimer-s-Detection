@@ -45,7 +45,8 @@ def run(model):
         if f1 > best_f1:
             best_f1 = f1
             best_model = model_train[name]
-    # Save model
+
+    # Save best model
     joblib.dump(
         best_model,
         os.path.join('./models', str(models)[:4] + "model.pkl")
@@ -58,7 +59,6 @@ def run(model):
     print(result)
 
    
-
 if __name__ == "__main__":
     if os.path.exists('./models'):
         shutil.rmtree('./models')

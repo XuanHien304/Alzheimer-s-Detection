@@ -44,7 +44,7 @@ Make sure folder ```models``` (save best model) exists
 To make the prediction
 
 ```bash
-  python Alzheime's_Detector.py -i *8-Features
+  python Alzheime_Detector.py -i *8-Features
 ```
 Each features seperates by comma( , )
   

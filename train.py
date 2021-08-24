@@ -20,7 +20,7 @@ PredictedOutput =[]
 
 def run(model):
     best_f1  = 0
-    df = read_data('./src/data/oasis_longitudinal.csv')
+    df = read_data('./data/oasis_longitudinal.csv')
     X, Y = target(df)
 
     # splitting into three sets

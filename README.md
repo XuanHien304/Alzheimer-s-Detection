@@ -1,5 +1,5 @@
 # Alzheimer's Detection 
-dataset source: https://www.oasis-brains.org/
+data source: https://www.oasis-brains.org/
 
 The project is to detect Alzheimer's disease using Machine Learning tool on MRI dataset.
 
@@ -36,4 +36,29 @@ Expected output:
 ----------------Result--------------
 model    F1_score    Precision  Recall
 
-```  
+``` 
+Make sure folder ```models``` (save best model) exists
+
+## Prediction
+
+To make the prediction
+
+```bash
+  python Alzheime's_Detector.py -i *8-Features
+```
+Each features seperates by comma( , )
+  
+## Feature
+Make sure your input is in exactly ordered
+
+| Feature |   Descripstion     
+| :-------- | :-----------------|
+| `M/F` | Male of Female
+| `Age` | Age of patient 
+| `EDUC` | Years of education 
+| `SES` | Socioeconomic Status
+| `MMSE` | [Mini Mental State Examination](http://www.dementiatoday.com/wp-content/uploads/2012/06/MiniMentalStateExamination.pdf) 
+| `eTIV	` | [Estimated Total Intracranial Volume](https://link.springer.com/article/10.1007/s12021-015-9266-5)
+| `nWBV` | [Normalize Whole Brain Volume](https://pubmed.ncbi.nlm.nih.gov/11547042/) 
+| `ASF` | [Atlas Scaling Factor](https://www.sciencedirect.com/science/article/abs/pii/S1053811904003271) 
+The prediction of patient will be Demented or Nondemented

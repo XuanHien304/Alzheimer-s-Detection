@@ -61,4 +61,5 @@ Make sure your input is in exactly ordered
 | `eTIV	` | [Estimated Total Intracranial Volume](https://link.springer.com/article/10.1007/s12021-015-9266-5)
 | `nWBV` | [Normalize Whole Brain Volume](https://pubmed.ncbi.nlm.nih.gov/11547042/) 
 | `ASF` | [Atlas Scaling Factor](https://www.sciencedirect.com/science/article/abs/pii/S1053811904003271) 
+
 The prediction of patient will be Demented or Nondemented

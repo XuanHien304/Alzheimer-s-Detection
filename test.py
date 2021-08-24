@@ -16,7 +16,7 @@ class Alzheimer_Detector():
             Output: Alzheimer's Demented or Not
 
         '''
-        info_np = np.array(info).reshape(1,-1)
+        info_np = np.array(info,float).reshape(1,-1)
         scaler = MinMaxScaler().fit(info_np)
         info_np = scaler.transform(info_np)
         prediction = self.model.predict(info_np)

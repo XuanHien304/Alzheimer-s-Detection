@@ -49,7 +49,7 @@ To make the prediction
 Each features seperates by comma( , )
   
 ## Feature
-Make sure your input is in exactly ordered
+Make sure your input is in exactly in order
 
 | Feature |   Descripstion     
 | :-------- | :-----------------|

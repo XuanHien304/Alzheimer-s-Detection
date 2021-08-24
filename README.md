@@ -63,3 +63,12 @@ Make sure your input is in exactly in order
 | `ASF` | [Atlas Scaling Factor](https://www.sciencedirect.com/science/article/abs/pii/S1053811904003271) 
 
 The prediction of patient will be Demented or Nondemented
+
+##Make prediction using Streamlit API
+
+```bash
+streamlit run streamlit.py
+```  
+Then go to the local link and enter patient information
+
+Press `Make prediction` button to get the result.

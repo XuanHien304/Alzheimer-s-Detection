@@ -39,15 +39,7 @@ model    F1_score    Precision  Recall
 ``` 
 Make sure folder ```models``` (save best model) exists
 
-## Prediction
 
-To make the prediction
-
-```bash
-  python Alzheime_Detector.py -i *8-Features
-```
-Each features seperates by comma( , )
-  
 ## Feature
 Make sure your input is in exactly in order
 
@@ -62,7 +54,19 @@ Make sure your input is in exactly in order
 | `nWBV` | [Normalize Whole Brain Volume](https://pubmed.ncbi.nlm.nih.gov/11547042/) 
 | `ASF` | [Atlas Scaling Factor](https://www.sciencedirect.com/science/article/abs/pii/S1053811904003271) 
 
+
+## Prediction
+
+To make the prediction
+
+```bash
+  python Alzheime_Detector.py -i *8-Features-above
+```
+Each features seperates by comma( , )
+  
+
 The prediction of patient will be Demented or Nondemented
+
 
 ##Make prediction using Streamlit API
 

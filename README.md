@@ -68,7 +68,7 @@ Each features seperates by comma( , )
 The prediction of patient will be Demented or Nondemented
 
 
-##Make prediction using Streamlit API
+## Make prediction using Streamlit API
 
 ```bash
 streamlit run streamlit.py
